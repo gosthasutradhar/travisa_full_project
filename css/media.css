@@ -1,0 +1,348 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+/*header start*/
+header{
+    padding: 10px 0;
+    /*border: 1px solid black;*/
+}
+.logo{
+    font-size: 28px;
+}
+.dd_menu[data-bs-popper] {
+    top: 40px;
+    left: 0px;
+    min-width: 275px;
+}   
+/*header end*/
+/*slider start*/
+.s_text {
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+.s_text h1 {
+    margin-bottom: 10px;
+    font-size: 60px;
+}
+
+.s_text p{
+    font-size: 16px;
+    margin: 10px 0;
+    letter-spacing: 0px;
+}
+.s_text button {
+    width: 150px;
+    height: 30px;
+    font-size: 16px;
+}
+.cid {
+    bottom: 30px;
+}
+/*slider end*/
+/*search start*/
+.search{
+    padding-bottom: 60px;
+    }
+.beauty_1 {
+    margin-bottom: 60px ;
+}
+.beauty_last{
+    margin-bottom: 20px ;
+}
+.search_text{
+    margin: 30px 0 20px;
+    text-align: center;
+}
+.h1_common{
+    margin-bottom: 10px;
+    font-size: 25px;
+} 
+.mb{
+    margin-bottom: 10px !important;
+}
+/*search end*/
+/*blog1 start*/
+.blog1{
+    padding: 35px 0 45px 0;
+}
+.blog_1_text {
+    margin-top: 10px;
+}
+/*blog1 end*/
+/*feature start*/
+.feature {
+    padding: 40px 0 0 0;
+}
+.f_s1 {
+    height: 300px;
+    margin-bottom: 20px;
+}
+.f_s1_text {
+    padding: 100px 0px;
+    text-align: center;
+}
+/*feature end*/
+/*blog2 start*/
+.blog2 {
+    padding: 60px 0 30px 0;
+}
+.f_s1 button {
+    width: 120px;
+    height: 35px;
+}
+/*blog2 end*/
+/*contact start*/
+.contact {
+    padding: 40px 0 80px 0;
+    }
+/*contact end*/
+/*footer start*/
+footer {
+    padding: 40px 0 40px 0;
+}
+.f_1{
+    margin-bottom: 30px;
+    text-align: center;
+}
+.f_2{
+    margin-bottom: 30px;
+    text-align: center;
+}
+.c_social ul li {
+    margin-right: 20px !important;
+}
+.c_social ul li a i{
+    font-size: 25px;
+    color: #ffb403 ;
+}
+/*footer start*/
+
+}
+/*Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+/*header start*/
+header{
+	padding: 10px 0;
+	/*border: 1px solid black;*/
+}
+.logo{
+	font-size: 28px;
+}
+.dd_menu[data-bs-popper] {
+    top: 40px;
+    left: 0px;
+}   
+/*header end*/
+/*slider start*/
+.s_text {
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+.s_text h1 {
+    margin-bottom: 10px;
+    font-size: 60px;
+}
+
+.s_text p{
+    font-size: 16px;
+	margin: 10px 0;
+    letter-spacing: 0px;
+}
+.s_text button {
+    width: 150px;
+    height: 30px;
+    font-size: 16px;
+}
+.cid {
+    bottom: 30px;
+}
+/*slider end*/
+/*search start*/
+.search{
+    padding-bottom: 60px;
+    }
+.beauty_1 {
+    margin-bottom: 70px ;
+}
+.beauty_last{
+    margin-bottom: 30px ;
+}
+.search_text{
+    margin: 30px 0;
+    text-align: center;
+}
+.h1_common{
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+/*search end*/
+/*blog1 start*/
+.blog1{
+    padding: 30px 0 45px 0;
+}
+.b_11 {
+    height: 400px;
+    }
+/*blog1 end*/
+/*feature start*/
+.feature {
+    padding: 40px 0 0 0;
+}
+.b_21 {
+    height: 400px;
+    }
+
+.f_s1 {
+    height: 300px;
+    margin-bottom: 20px;
+}
+.f_s1_text {
+    padding: 100px 0px;
+    text-align: center;
+}
+/*feature end*/
+/*blog2 start*/
+.blog2 {
+    padding: 40px 0 45px 0;
+}
+.f_s1 button {
+    width: 120px;
+    height: 35px;
+}
+/*blog2 end*/
+/*contact start*/
+.contact {
+    padding: 45px 0 80px 0;
+    }
+.contact_text {
+    text-align: left;
+}
+
+/*contact end*/
+/*footer start*/
+footer {
+    padding: 60px 0 40px 0;
+}
+.f_1{
+    margin-bottom: 30px;
+    text-align: center;
+}
+.f_2{
+    margin-bottom: 20px;
+    text-align: center;
+}
+/*footer start*/
+
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+/*header start*/
+.dd_menu[data-bs-popper] {
+    top: 40px;
+    left: 0px;
+}   
+/*header end*/
+/*slider start*/
+.s_text h1 {
+    font-size: 100px;
+}
+.s_text p{
+   font-size: 21px;
+   letter-spacing: 2px; 
+}
+/*slider end*/
+/*search start*/
+.search{
+    padding-bottom: 80px;
+    }
+.beauty_1 {
+    margin-bottom: 70px ;
+}
+.beauty_last{
+    margin-bottom: 0 ;
+}
+.search_text{
+    margin: 40px 0;
+    text-align: center;
+}
+/*search end*/
+/*blog1 start*/
+.blog1 {
+    padding: 60px 0 65px 0;
+}
+/*blog1 end*/
+/*feature start*/
+.feature {
+    padding: 60px 0 0 0;
+}
+.f_s1 {
+    height: 400px;
+    margin-bottom: 20px;
+}
+.f_s1_text {
+    padding: 140px 0px;
+    text-align: center;
+}
+/*feature end*/
+/*blog2 start*/
+.blog2 {
+    padding: 60px 0 65px 0;
+}
+
+/*blog2 end*/
+/*contact start*/
+.contact {
+    padding: 45px 0 80px 0;
+    }
+.contact_text {
+    text-align: left;
+}
+/*contact end*/
+/*footer start*/
+footer {
+    padding: 60px 0 40px 0;
+}
+/*footer start*/
+
+	
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+/*slider start*/
+.s_text h1 {
+    font-size: 110px;
+}
+.s_text p{
+    letter-spacing: 3px;
+}
+/*slider end*/
+/*feature start*/
+.large {
+    flex: 0 0 auto;
+    width: 20%;
+}
+/*feature end*/
+
+}
+/*X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+	
+    /*feature start*/
+.large {
+    flex: 0 0 auto;
+    width: 20%;
+}
+/*feature end*/
+}
+
+/*XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+	
+    /*feature start*/
+.large {
+    flex: 0 0 auto;
+    width: 20%;
+}
+/*feature end*/
+}

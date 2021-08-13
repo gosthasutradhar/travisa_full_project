@@ -1,0 +1,37 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?d59da10a4ef3e78824ff6aa93e57a776") format("truetype"),
+url("./flaticon.woff?d59da10a4ef3e78824ff6aa93e57a776") format("woff"),
+url("./flaticon.woff2?d59da10a4ef3e78824ff6aa93e57a776") format("woff2"),
+url("./flaticon.eot?d59da10a4ef3e78824ff6aa93e57a776#iefix") format("embedded-opentype"),
+url("./flaticon.svg?d59da10a4ef3e78824ff6aa93e57a776#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "island-with-palm-trees": "\f101",
+    "sailboat": "\f102",
+    "route": "\f103",
+);
+
+.flaticon-island-with-palm-trees:before {
+    content: map-get($flaticon-map, "island-with-palm-trees");
+}
+.flaticon-sailboat:before {
+    content: map-get($flaticon-map, "sailboat");
+}
+.flaticon-route:before {
+    content: map-get($flaticon-map, "route");
+}
